@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: retail
+    catalog: junaid_catalog
+    schema: dbt_retail
+    tables:
+      - name: customers
+      - name: sales_orders
